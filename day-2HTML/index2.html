@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>day-2HTML</title>
+</head>
+<body>
+<h1>between HTML tags and elements</h1> 
+    tag consist opening and closing tag and if we give content inside the tag,it become an element.
+
+<h1>Expain br tags</h1>
+    The br tag stands for line break, it used to break any element and display it in wed page
+    
+<h1>Explain how many different types of list</h1>
+    Here we have three types of lists
+    <p>
+        ordered list <br>
+        unordered list <br>
+        description list
+    </p>
+
+<ol type="5" reversed>
+    <li>apple</li>
+    <li> orange</li>
+    <li>mango</li>
+    <li> grapes</li>
+    <li> banana</li>
+</ol>
+<ol start="10">
+    <li>apple</li>
+    <li> orange</li>
+    <li>mango</li>
+    <li> grapes</li>
+    <li> banana</li>
+</ol>
+
+<ul type="none">
+    <li> tomato</li>
+    <li> potao</li>
+</ul>
+<!-- description list -->
+<!-- dl-Description list
+dt-description terminated
+dd-description dta -->
+<dl>
+    <dt>car</dt>
+    <dd> car has four wheel</dd>
+    <dt>Bike</dt>
+    <dd>kawasaki</dd>
+</dl>
+
+<h1>What are semantic tags</h1>
+    semantic tag is the tag that tell about itself to browser and developers.
+        examples: footer
+
+<h1>Code for ordered list</h1>
+<h1>Ordered list</h1>
+   <ol type="I">
+       <li>Mango</li>
+       <li>Orange</li>
+       <li>Gova</li>
+       <li>Apple</li>
+   </ol>
+
+<h1>Code forunordered list</h1>
+<h1>unordered list</h1> 
+    <ul type="circle">
+       <li>Cat</li>
+       <li>Dog</li>
+       <li>Elephant</li>
+       <li>Rat</li>
+    </ul>
+
+<h1>write a code to create a link</h1> 
+    <a href="https://www.prepbytes.com">prepbytes</a>
+
+<h1>writa a code to insert an image</h1>    
+    <img src="cat.png" width="500"><br>
+    <img src="https://www.cdc.gov/healthypets/images/pets/cute-dog-headshot.jpg?_=42445" width="500">
+
+<h1>Code for input fields like Name,Email,Age,contact</h1>
+<form>
+<label for="Name">Name</label>
+        <input type="text" name="Name" id="Name" value="" placeholder="enter your name" required>
+        <br>
+        <label for="myemail">Email</label> 
+        <input type="email" name="email" id="myemail" value="" placeholder="enter your email" required>
+        <br>
+        <label for="myage">age</label>
+        <input type="number" name="age" id="myage" value="" placeholder="enter your age" required>
+        <br>
+        <label for="mycontact">contact</label>
+        <input type="tel" name="contact" id="mycontact" placeholder="enter your contact" required>
+</form>
+
+<h1>Creact table to acheive colspan</h1>
+<table border="2">
+    <thead>
+        <th>name</th>
+        <th colspan="2">designation</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">vankat</td>
+            <td>fornt-end developer</td>
+            <td> digital marketer</td>
+        </tr>
+        <tr>   
+            <td>fornt-end developer</td>
+            <td> digital marketer</td>
+    </tbody>
+</table>
+
+<h1>Create radio button (MERN, MEAN : course)and checkbox(HTML, CSS, React, Node : technology) and explain the difference between these two </h1>
+<form action="./index3.html">
+<label for="gender">gender</label>
+        <input type="radio" name="gender" value="male" id="gender">male
+        <input type="radio" name="gender" value="female" id="gender">female
+        <input type="radio" name="gender" value="trancenger" id="gender">trancenger
+<br><br>
+
+        <label for="course">course</label>
+        <input type="checkbox" name="course1" value="HTML" id="course" required>HTML
+        <input type="checkbox" name="course2" value="css" id="course">css
+        <input type="checkbox" name="course3" value="js" id="course">js
+
+
+        <input type="submit" value="click me">
+</form>
+
+
+</body>
+</html>
